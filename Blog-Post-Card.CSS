@@ -1,0 +1,47 @@
+body {
+  background-color: gray;
+}
+
+.blog-post-card {
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* image fills the card's entire width and has a bottom border. */
+.post-img {
+  width: 100%;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+}
+
+/* Padding inside the card content */
+.post-content {
+  padding: 15px;
+}
+
+/* Style for title and excerpt */
+.post-title, .post-excerpt {
+  color: #333;
+  margin: 10px;
+}
+
+/* Style the "Read More" like a button */
+.read-more {
+  color: white;   /* text color */
+  background-color: #007BFF;  /* button background */
+  margin: 10px;   /* space outside */
+  padding: 10px 15px;   /* space inside (button feel) */
+  border-radius: 5px;   /* rounded corners */
+  display: inline-block;  /* allows padding & margin properly */
+  text-decoration: none;  /* removes underline */
+}
+
+/* Hover effect */
+.read-more:hover {
+  background-color: #0056b3;
+}
+
