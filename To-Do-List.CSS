@@ -5,7 +5,7 @@ a {
   text-decoration: none;
 }
 
-/* */
+/* changes the color of a link while it is being clicked. */
 a:active {
   color: yellow;
 }
