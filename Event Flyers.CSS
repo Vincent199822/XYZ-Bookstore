@@ -1,0 +1,20 @@
+/* Body styling */
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;  /* top & bottom padding */
+  margin: 0 auto;               /* top/bottom = 0, left/right = auto (center) */
+  width: 80vw;                  /* relative to viewport width */
+  min-height: calc(100vh - 100px); /* 100vh - (50px top + 50px bottom) */
+}
+
+/* Section styling */
+section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* HR styling */
+hr {
+  width: 80%;
+  margin: 20px auto;
+}
